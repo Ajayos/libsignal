@@ -1,9 +1,10 @@
 {
-  "name": "libsignal",
+  "name": "@ajayos/libsignal",
   "version": "2.0.1",
   "description": "Open Whisper Systems' libsignal for Node.js",
-  "repository": "ForstaLabs/libsignal-node",
+  "repository": "Ajayos/libsignal",
   "main": "index.js",
+  "homepage": "https://github.com/Ajayos/libsignal",
   "keywords": [
     "signal",
     "whispersystems",
