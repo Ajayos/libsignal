@@ -1,20 +1,23 @@
 {
   "name": "@ajayos/libsignal",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Open Whisper Systems' libsignal for Node.js",
   "repository": "Ajayos/libsignal",
-  "main": "index.json",
-	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.33.1",
-		"@typescript-eslint/parser": "^5.59.0",
-		"eslint-plugin-react": "^7.32.2",
-		"eslint-plugin-simple-import-sort": "^10.0.0"
-	},
-	"peerDependencies": {
-		"eslint": "*",
-		"typescript": ">=4"
-	},
-	"devDependencies": {
-		"typescript": "^4.5.5"
-	}
+  "main": "index.js",
+  "keywords": [
+    "signal",
+    "whispersystems",
+    "crypto"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "curve25519-js": "^0.0.4",
+    "protobufjs": "6.8.8"
+  },
+  "files": [
+    "src/*"
+  ],
+  "devDependencies": {
+    "eslint": "6.0.1"
+  }
 }
